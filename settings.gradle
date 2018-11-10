@@ -1,0 +1,2 @@
+include ':app', ':FlowLayout'
+project(':FlowLayout').projectDir = new File('app/libs/FlowLayout')

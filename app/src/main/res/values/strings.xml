@@ -1,0 +1,125 @@
+<resources>
+    <string-array name="Value">
+        <item>Marron</item>
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Violet</item>
+        <item>Gris</item>
+        <item>Blanc</item>
+    </string-array>
+    <string-array name="Valeur">
+        <item>Noir</item>
+        <item>Marron</item>
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Violet</item>
+        <item>Gris</item>
+        <item>Blanc</item>
+    </string-array>
+    <string-array name="Multiplicateur">
+        <item>Noir</item>
+        <item>Marron</item>
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Violet</item>
+        <item>Gris</item>
+        <item>Blanc</item>
+        <item>Or</item>
+        <item>Argent</item>
+    </string-array>
+    <string-array name="Tolérance">
+        <item>Marron</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+        <item>Bleu</item>
+        <item>Violet</item>
+        <item>Gris</item>
+        <item>Or</item>
+        <item>Argent</item>
+    </string-array>
+    <string-array name="Coefficient">
+        <item>Marron</item>
+        <item>Rouge</item>
+        <item>Orange</item>
+        <item>Jaune</item>
+        <item>Bleu</item>
+        <item>Violet</item>
+        <item>Blanc</item>
+    </string-array>
+    <integer-array name="Valeur2">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <integer-array name="Value2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="Multiplicateur2">
+        <item>1</item>
+        <item>10</item>
+        <item>100</item>
+        <item>1000</item>
+        <item>10000</item>
+        <item>100000</item>
+        <item>1000000</item>
+        <item>10000000</item>
+        <item>100000000</item>
+        <item>1000000000</item>
+        <item>0.1</item>
+        <item>0.01</item>
+    </string-array>
+    <string-array name="Tolérance2">
+        <item>1%</item>
+        <item>2%</item>
+        <item>0.5%</item>
+        <item>0.25%</item>
+        <item>0.1%</item>
+        <item>0.05%</item>
+        <item>5%</item>
+        <item>10%</item>
+    </string-array>
+    <string-array name="Coefficient2">
+        <item>100 ppm/C°</item>
+        <item>50 ppm/C°</item>
+        <item>15 ppm/C°</item>
+        <item>25 ppm/C°</item>
+        <item>10 ppm/C°</item>
+        <item>5 ppm/C°</item>
+        <item>1 ppm/C°</item>
+    </string-array>
+    <string-array name="NbAnneaux">
+        <item>3-band code</item>
+        <item>4-band code</item>
+        <item>5-band code</item>
+        <item>6-band code</item>
+    </string-array>
+    <string name="app_name">Resistor calculation</string>
+    <string name="value">Value</string>
+    <string name="ohm"> Ω </string>
+    <string name="ok">Ok</string>
+    <string name="logo_calcul_resistance">Resistor Calculation Logo</string>
+</resources>

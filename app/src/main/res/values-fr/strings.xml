@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcul de résistance</string>*<string-array name="NbAnneaux">
+    <item>Code couleur à 3 anneaux</item>
+    <item>Code couleur à 4 anneaux</item>
+    <item>Code couleur à 5 anneaux</item>
+    <item>Code couleur à 6 anneaux</item>
+</string-array>
+    <string name="value">Valeur</string>
+    <string name="ohm"> Ω </string>
+    <string name="ok">Ok</string>
+    <string name="logo_calcul_resistance">Logo Calcul Resistance</string>
+</resources>

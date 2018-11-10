@@ -1,0 +1,163 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <Spinner android:id="@+id/spinnerNbAnneaux"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:entries="@array/NbAnneaux"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/resistance"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:autofillHints="no"
+                    android:inputType="numberDecimal"
+                    android:hint="@string/value"
+                    tools:ignore="UnusedAttribute" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="@string/ohm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Spinner android:id="@+id/spinnerTolerance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"
+                    android:entries="@array/Tolérance2"/>
+
+                <Spinner android:id="@+id/spinnerCoefficient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textEnd"
+                    android:gravity="end"
+                    android:entries="@array/Coefficient2"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnOk"
+            android:text="@string/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#D5CDB4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btnValue1"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#D5CDB4"
+            android:clickable="false"
+            android:enabled="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnValue2"
+            android:background="#D5CDB4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnValue3"
+            android:background="#D5CDB4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnMultiplicateur"
+            android:background="#D5CDB4"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="#D5CDB4"
+            android:id="@+id/btnTolerance"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+        <Button
+            android:background="#D5CDB4"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/btnCoefficient"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:enabled="false"
+            android:clickable="false"
+            android:focusable="false"
+            style="?android:attr/buttonBarButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

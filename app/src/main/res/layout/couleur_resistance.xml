@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <Spinner android:id="@+id/spinnerNbAnneaux"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:entries="@array/NbAnneaux"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <com.wefika.flowlayout.FlowLayout
+            android:background="#D5CDB4"
+            android:id="@+id/flow"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner android:id="@+id/spinnerValue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner android:id="@+id/spinnerValue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Spinner android:id="@+id/spinnerValue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner android:id="@+id/spinnerMultiplicateur"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner android:id="@+id/spinnerTolerance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Spinner android:id="@+id/spinnerCoefficient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </com.wefika.flowlayout.FlowLayout>
+    </LinearLayout>
+
+    <TextView android:id="@+id/txtResultat"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+</LinearLayout>
